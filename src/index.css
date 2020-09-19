@@ -11,3 +11,274 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom, #FCFC84, #FDFEEE);
+}
+
+.anime-bg{
+  width: 100%;
+  height: 325px;
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: 0.5s;
+}
+.anime-bg:hover{
+  transition: 0.5s;
+  height: 350px;
+  box-shadow: gray 0 0 10px;
+}
+
+.anime-cover{
+  box-shadow: gray 0 3px 6px;
+  z-index: 2;
+  border-radius: 10%;
+  width: 300px;
+  height: 400px;
+  background-image: url(cover.jpg);
+  background-size: cover;
+  top: 150px;
+  left: 70px;
+  position: absolute;
+  transition: 0.5s;
+}
+.anime-cover:hover{
+  transition: 0.5s;
+  width: 320px;
+  height: 420px;
+  box-shadow: black 0 20px 25px;
+}
+
+.card-infos{
+  width: 300px;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+h1{
+  margin-bottom: 15px;
+  text-shadow: gray 0 3px 6px;
+}
+
+.cat{
+  box-shadow: gray 0 3px 6px;
+  cursor: pointer;
+  width: 70px;
+  height: 3vh;
+  background: linear-gradient(to top, #FF9900, #EEFF00);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 15px 15px 15px;
+}
+.cat:hover{
+  background: #FF9900;
+}
+.cat p{
+  font-size: 12px;
+  text-shadow: gray 0 3px 6px;
+}
+
+.rate ul{
+  margin-top: 8px;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.rate ul li{
+  margin-right: 3px;
+  display: inline-block;
+  background-image: url(star.png);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+.rate ul li:last-child{
+  background-image: url(rating.png);
+}
+
+.infos{
+  font-size: 15px;
+  margin-top: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 10px;
+  height: 2vh;
+  text-shadow: gray 0 3px 6px;
+}
+.infos p span{
+  font-weight: 700;
+}
+
+.desc{
+  font-size: 18px;
+  margin-top: 70px;
+  width: 50%;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.desc p span:first-child{
+  font-weight: 700;
+}
+
+.desc p span:last-child{
+  cursor: pointer;
+  font-size: 16px;
+  color: #635D5D;
+}
+
+.desc p span:last-child:hover{
+  text-decoration: underline;
+}
+
+.watch{
+  text-shadow: gray 0 3px 6px;
+  margin-top: 20px;
+  padding: 0;
+  right: 0;
+  position: absolute;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch div{
+  box-shadow: gray 0 3px 6px;
+  cursor: pointer;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #31C361, #11FF00);
+  border-radius: 39px 39px 39px 39px;  
+  width: 150px;  
+  height: 50px;
+}
+.watch div:hover{
+  background: #11FF00;
+}
+
+.watch h2{
+  font-size: 20px;
+  color: white;
+}
+
+
+.watch img{
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.footer{
+  margin-right: 15px;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+}
+
+.footer img{
+  cursor: pointer;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+}
+.footer img:hover{
+  transition: 0.5s;
+  width: 35px;
+  height: 35px;
+}
+
+.footer p{
+  margin-right: 10px;
+}
+
+.status{
+  cursor: pointer;
+  top: 160px;
+  left: 20px;
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  padding: 5px;
+  z-index: 3;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  background: #A82929;
+  color: white;
+  align-items: center;
+  border-radius: 35px 35px 35px 35px;
+  box-shadow: black 0 3px 10px;
+}
+.status:hover{
+ background: red;
+}
+
+@media(max-width: 948px){
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .anime-cover{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) translateY(-70%);
+  }
+
+  .card-infos{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%) translateY(-70%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desc{
+    margin-top: 50px;
+    width: 55%;
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%) translateY(-70%);
+    justify-content: center;
+  }
+
+  .footer{
+    position: relative;
+  }
+
+  .status{
+    width: 100px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(400%);
+    position: relative;
+  }
+
+}
