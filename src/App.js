@@ -43,7 +43,7 @@ const App = () => {
         </p>
       </div>
       <div className="footer">
-        <p>Folow Us</p>
+        <p>Follow Us</p>
         <img src={tw} alt="twitter"/>
         <img src={fb} alt="facebook"/>
       </div>

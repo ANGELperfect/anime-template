@@ -261,6 +261,7 @@ h1{
   }
 
   .desc{
+    text-align: center;
     margin-top: 50px;
     width: 55%;
     display: flex;
@@ -281,4 +282,10 @@ h1{
     position: relative;
   }
 
+}
+
+@media (max-width: 500px){
+  .desc{
+    width: 100%;
+  }
 }
