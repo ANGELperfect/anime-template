@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/anime-template/precache-manifest.2ac1d71da91ca0be20d1436f5a05c140.js"
+  "/anime-template/precache-manifest.d45b6389f8570febb7e75f3e4c342fb2.js"
 );
 
 workbox.clientsClaim();

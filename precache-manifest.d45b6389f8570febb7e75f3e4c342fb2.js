@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "18cfcb60dfc836091622",
-    "url": "/anime-template/static/css/main.bfd9eeac.chunk.css"
+    "revision": "5d87c0f37e99a555f8b1",
+    "url": "/anime-template/static/css/main.1b846334.chunk.css"
   },
   {
-    "revision": "18cfcb60dfc836091622",
+    "revision": "5d87c0f37e99a555f8b1",
     "url": "/anime-template/static/js/main.b27fe11a.chunk.js"
   },
   {
@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/anime-template/static/media/twitter (1).80c60f92.png"
   },
   {
-    "revision": "1045374d5b976d6a5a811d84349108e9",
-    "url": "/anime-template/static/media/rating.1045374d.png"
-  },
-  {
     "revision": "bcc3e469f0b23903a55e62f057fcc19e",
     "url": "/anime-template/static/media/bg.bcc3e469.jpg"
+  },
+  {
+    "revision": "1045374d5b976d6a5a811d84349108e9",
+    "url": "/anime-template/static/media/rating.1045374d.png"
   },
   {
     "revision": "2aa72ec0b8a81cd78e9c994d9d13a8d5",
     "url": "/anime-template/static/media/cover.2aa72ec0.jpg"
   },
   {
-    "revision": "9daf8e49ce4af41cb99d8480019405ed",
+    "revision": "979a5be570affe0832f912cfd1213cb2",
     "url": "/anime-template/index.html"
   }
 ];
