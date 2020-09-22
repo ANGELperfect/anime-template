@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "5d87c0f37e99a555f8b1",
-    "url": "/anime-template/static/css/main.1b846334.chunk.css"
+    "revision": "02187145ad1098a4ba44",
+    "url": "/anime-template/static/css/main.70685ae4.chunk.css"
   },
   {
-    "revision": "5d87c0f37e99a555f8b1",
+    "revision": "02187145ad1098a4ba44",
     "url": "/anime-template/static/js/main.b27fe11a.chunk.js"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/anime-template/static/media/cover.2aa72ec0.jpg"
   },
   {
-    "revision": "979a5be570affe0832f912cfd1213cb2",
+    "revision": "85f4730a8e797bb12bef1f61c9a74e10",
     "url": "/anime-template/index.html"
   }
 ];

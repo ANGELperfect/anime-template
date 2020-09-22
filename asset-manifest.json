@@ -1,5 +1,5 @@
 {
-  "main.css": "/anime-template/static/css/main.1b846334.chunk.css",
+  "main.css": "/anime-template/static/css/main.70685ae4.chunk.css",
   "main.js": "/anime-template/static/js/main.b27fe11a.chunk.js",
   "main.js.map": "/anime-template/static/js/main.b27fe11a.chunk.js.map",
   "runtime~main.js": "/anime-template/static/js/runtime~main.1a50e4cf.js",
@@ -7,9 +7,9 @@
   "static/js/2.af333514.chunk.js": "/anime-template/static/js/2.af333514.chunk.js",
   "static/js/2.af333514.chunk.js.map": "/anime-template/static/js/2.af333514.chunk.js.map",
   "index.html": "/anime-template/index.html",
-  "precache-manifest.d45b6389f8570febb7e75f3e4c342fb2.js": "/anime-template/precache-manifest.d45b6389f8570febb7e75f3e4c342fb2.js",
+  "precache-manifest.9beee7d23b82e8990c865a6a4bc6c604.js": "/anime-template/precache-manifest.9beee7d23b82e8990c865a6a4bc6c604.js",
   "service-worker.js": "/anime-template/service-worker.js",
-  "static/css/main.1b846334.chunk.css.map": "/anime-template/static/css/main.1b846334.chunk.css.map",
+  "static/css/main.70685ae4.chunk.css.map": "/anime-template/static/css/main.70685ae4.chunk.css.map",
   "static/media/index.css": "/anime-template/static/media/star.45dd5470.png",
   "static/media/twitter (1).png": "/anime-template/static/media/twitter (1).80c60f92.png"
 }
