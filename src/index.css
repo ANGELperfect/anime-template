@@ -328,7 +328,7 @@ h1{
 }
 
 .more.active{
-  z-index: 4;
+  z-index: 10;
   visibility: visible;
   opacity: 100%;
   transition: 0.5s;
